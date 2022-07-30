@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="astar">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="3rdparty">
+      <UniqueIdentifier>{0d5989cd-bb86-4220-9c68-8ccc693a1b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool">
+      <UniqueIdentifier>{44e577fc-c811-439a-9918-9fbabb27ba55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+    <None Include="astar.def">
+      <Filter>astar</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="astar.h">
+      <Filter>astar</Filter>
+    </ClInclude>
+    <ClInclude Include="myastar.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="castar.h">
+      <Filter>astar</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="blockallocator.h">
+      <Filter>3rdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="mypoint.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="myglobal.hpp">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="mydraw.hpp">
+      <Filter>tool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="astar.cpp">
+      <Filter>astar</Filter>
+    </ClCompile>
+    <ClCompile Include="myastar.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="castar.cpp">
+      <Filter>astar</Filter>
+    </ClCompile>
+    <ClCompile Include="blockallocator.cpp">
+      <Filter>3rdparty</Filter>
+    </ClCompile>
+    <ClCompile Include="mypoint.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="astar.rc" />
+  </ItemGroup>
+</Project>

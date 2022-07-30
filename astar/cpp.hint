@@ -1,0 +1,5 @@
+﻿#define ASTAR_API __declspec(dllexport)
+#define ASTAR_API __declspec(dllimport)
+#define MY_DISABLE_COPY_MOVE(Class) MY_DISABLE_COPY(Class) MY_DISABLE_MOVE(Class)
+#define MY_REQUIRED_RESULT [[nodiscard]]
+#define MY_REQUIRED_RESULT [[nodiscard]]
